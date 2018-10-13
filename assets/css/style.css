@@ -1,0 +1,20 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background: url(https://gamerescape.com/wp-content/uploads/2017/05/FFXIV_40_Mediakit_20170501_041.png) fixed;
+}
+
+.container {
+	text-align: center;
+	color: bisque;
+	margin: 0 auto;
+	width: 470px;
+	padding: 30px;
+	border-radius: 10px;
+	background: url(../windowimage.png);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
