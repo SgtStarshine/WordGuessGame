@@ -8,13 +8,52 @@ body {
 	color: bisque;
 	margin: 0 auto;
 	width: 470px;
+	height: 325px;
 	padding: 30px;
 	border-radius: 10px;
 	background: url(../windowimage.png);
+	box-shadow: 10px 10px 10px black;
     position: absolute;
     top: 50%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
+
+#my-word {
+	margin: 0;
+	display: block;
+	padding: 0;
+	display:block;
+}
+
+#my-word li {
+	position: relative;
+	list-style: none;
+	margin: 0;
+	display: inline-block;
+	padding: 0 10px;
+	font-size:1.6em;
+}
+
+#mylives {
+	font-size:1.6em;
+	text-align:center;
+	display:block;
+}
+
+#resetButton {
+	background: transparent;
+	border: 0;
+	cursor: pointer;
+	height: 24px;
+	width: 24px;
+	font-size: 8pt;
+	font-family: tahoma;
+	margin-top: 1px;
+	margin-right: 2px;
+	position:absolute;
+	top:0;
+	right:0;
 }
 
